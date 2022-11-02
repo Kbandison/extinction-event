@@ -22,7 +22,6 @@ dinoStrike.forEach(e => {
 dinoFade.forEach(e => {
   e.addEventListener('click', () => {
     e.style.opacity = '0';
-    e.style.transition = '2s';
   })
 });
 
