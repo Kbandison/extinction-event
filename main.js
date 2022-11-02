@@ -28,7 +28,6 @@ dinoFade.forEach(e => {
 dinoCollapse.forEach(e => {
   e.addEventListener('click', () => {
     e.style.width = '0';
-    e.style.transition = '2s';
   })
 });
 
@@ -40,12 +39,10 @@ meteor.addEventListener('click', () => {
   
   dinoFade.forEach(e => {
       e.style.opacity = '0';
-      e.style.transition = '2s';
   });
   
   dinoCollapse.forEach(e => {
       e.style.width = '0';
-      e.style.transition = '2s';
     })
 });
 
